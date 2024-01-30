@@ -1,9 +1,9 @@
 import React from "react";
-import "../../App.css";
+import styles from "./navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className={styles.navbar}>
       <div className="navbar-container">
         <div className="navbar-header">
           <div className="navbar-brand">Hallo Welt!</div>
